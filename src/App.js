@@ -26,7 +26,6 @@ function App() {
       <Route path="/contact" component={ Contact } >
       </Route>
       <Route component={ NotFound }>
-
       </Route>
       </Switch>
       </div>
