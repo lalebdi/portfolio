@@ -25,7 +25,7 @@ export function register(config) {
         checkValidServiceWorker(swUrl, config);
 
 
-        // service worker/PWA documentation.
+
         navigator.serviceWorker.ready.then(() => {
           console.log(
             'This web app is being served cache-first by a service ' +
