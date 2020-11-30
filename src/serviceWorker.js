@@ -30,7 +30,6 @@ export function register(config) {
           );
         });
       } else {
-
         registerValidSW(swUrl, config);
       }
     });
