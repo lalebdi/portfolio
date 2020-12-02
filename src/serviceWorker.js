@@ -49,7 +49,7 @@ function registerValidSW(swUrl, config) {
           if (installingWorker.state === 'installed') {
             if (navigator.serviceWorker.controller) {
 
-              // but the previous service worker will still serve the older
+
               // content until all client tabs are closed.
               console.log(
                 'New content is available and will be used when all ' +
