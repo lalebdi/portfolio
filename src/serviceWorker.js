@@ -50,7 +50,6 @@ function registerValidSW(swUrl, config) {
             if (navigator.serviceWorker.controller) {
 
 
-              // content until all client tabs are closed.
               console.log(
                 'New content is available and will be used when all ' +
                   'tabs for this page are closed. See https://bit.ly/CRA-PWA.'
